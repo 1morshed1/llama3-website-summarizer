@@ -16,34 +16,34 @@ Summarize any webpage using a local Large Language Model (LLM) like llama3 via O
 
 🚀 Demo
 
-$ python summarizer.py
-Enter a URL: https://cnn.com
+    $ python summarizer.py
+    Enter a URL: https://cnn.com
 
-##Summary of CNN Website¶
+    ##Summary of CNN Website¶
 
-The CNN website is a news and media outlet that provides breaking news, in-depth analysis, and feature articles on a wide range of topics, including:
+        The CNN website is a news and media outlet that provides breaking news, in-depth analysis, and feature articles on a wide range of topics, including:
 
 
 ⚙️ Requirements
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 You also need a local model via Ollama:
 
-ollama run llama3
+    ollama run llama3
 
 Make sure Ollama is running at: http://localhost:11434
 
 
 🧪 Usage
 
-from summarizer import display_summary
+    from summarizer import display_summary
 
-display_summary("https://example.com")
+        display_summary("https://example.com")
 
-Or directly from the command line:
+    Or directly from the command line:
 
-python summarizer.py
+        python summarizer.py
 
 🧠 How It Works
 
@@ -57,19 +57,19 @@ python summarizer.py
 
 🛠 Configuration
 
-To change the system behavior, edit this line in summarizer.py:
+    To change the system behavior, edit this line in summarizer.py:
 
-system_prompt = "You are an assistant that analyzes websites and summarizes them. Respond in markdown."
+    system_prompt = "You are an assistant that analyzes websites and summarizes them. Respond in markdown."
 
 
 📌 Future Ideas
 
-Batch summarize from a list of URLs
+    Batch summarize from a list of URLs
 
-Export summaries to .md or .pdf
+    Export summaries to .md or .pdf
 
-GUI or Streamlit interface
+    GUI or Streamlit interface
 
-Categorize or tag page content automatically
+    Categorize or tag page content automatically
 
 
