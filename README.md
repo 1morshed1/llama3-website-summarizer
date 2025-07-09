@@ -1,5 +1,5 @@
 # llama3-website-summarizer
-Summarize any webpage using a local Large Language Model (LLM) like llama3 via Ollama. This tool fetches and cleans webpage content, then uses a chat-style LLM to generate a clean summary in markdown format.
+Summarize any webpage using a local Large Language Model (LLM) like llama3.2 via Ollama. This tool fetches and cleans webpage content, then uses a chat-style LLM to generate a clean summary in markdown format.
 
 ✨ Features
 
@@ -19,9 +19,9 @@ Summarize any webpage using a local Large Language Model (LLM) like llama3 via O
     $ python summarizer.py
     Enter a URL: https://cnn.com
 
-    ##Summary of CNN Website¶
+    ##Summary of CNN Website
 
-        The CNN website is a news and media outlet that provides breaking news, in-depth analysis, and feature articles on a wide range of topics, including:
+    The CNN website is a news and media outlet that provides breaking news, in-depth analysis, and feature articles on a wide range of topics, including:
 
 
 ⚙️ Requirements
@@ -37,7 +37,7 @@ Make sure Ollama is running at: http://localhost:11434
 
 🧪 Usage
 
-    from summarizer import display_summary
+        from summarizer import display_summary
 
         display_summary("https://example.com")
 
@@ -59,7 +59,7 @@ Make sure Ollama is running at: http://localhost:11434
 
     To change the system behavior, edit this line in summarizer.py:
 
-    system_prompt = "You are an assistant that analyzes websites and summarizes them. Respond in markdown."
+        system_prompt = "You are an assistant that analyzes websites and summarizes them. Respond in markdown."
 
 
 📌 Future Ideas
