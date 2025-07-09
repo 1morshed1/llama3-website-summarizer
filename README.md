@@ -47,13 +47,13 @@ Or directly from the command line:
 
 🧠 How It Works
 
-*Website class downloads and strips irrelevant HTML elements
+- Website class downloads and strips irrelevant HTML elements
 
-*Prompt is crafted with the cleaned content
+- Prompt is crafted with the cleaned content
 
-*Sends a system and user prompt to your local LLM (llama3.2)
+- Sends a system and user prompt to your local LLM (llama3.2)
 
-*Markdown summary is displayed in terminal or Jupyter
+- Markdown summary is displayed in terminal or Jupyter
 
 🛠 Configuration
 
@@ -64,12 +64,12 @@ To change the system behavior, edit this line in summarizer.py:
 
 📌 Future Ideas
 
-*Batch summarize from a list of URLs
+* Batch summarize from a list of URLs
 
-*Export summaries to .md or .pdf
+* Export summaries to .md or .pdf
 
-*GUI or Streamlit interface
+* GUI or Streamlit interface
 
-*Categorize or tag page content automatically
+* Categorize or tag page content automatically
 
 
