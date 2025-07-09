@@ -3,15 +3,15 @@ Summarize any webpage using a local Large Language Model (LLM) like llama3.2 via
 
 ✨ Features
 
-    🧠 Uses local LLMs like llama3 (via Ollama)
+🧠 Uses local LLMs like llama3 (via Ollama)
 
-    🌐 Parses and cleans webpage text using BeautifulSoup
+🌐 Parses and cleans webpage text using BeautifulSoup
 
-    📝 Generates short, readable markdown summaries
+📝 Generates short, readable markdown summaries
 
-    ✅ Skips scripts, ads, navigation, etc.
+✅ Skips scripts, ads, navigation, etc.
 
-    📦 Lightweight, no external OpenAI dependency
+📦 Lightweight, no external OpenAI dependency
 
 
 🚀 Demo
@@ -19,9 +19,9 @@ Summarize any webpage using a local Large Language Model (LLM) like llama3.2 via
     $ python summarizer.py
     Enter a URL: https://cnn.com
 
-##Summary of CNN Website
+    ##Summary of CNN Website
 
-The CNN website is a news and media outlet that provides breaking news, in-depth analysis, and feature articles on a wide range of topics, including:
+    The CNN website is a news and media outlet that provides breaking news, in-depth analysis, and feature articles on a wide range of topics, including:
 
 
 ⚙️ Requirements
@@ -47,13 +47,13 @@ Or directly from the command line:
 
 🧠 How It Works
 
-    Website class downloads and strips irrelevant HTML elements
+*Website class downloads and strips irrelevant HTML elements
 
-    Prompt is crafted with the cleaned content
+*Prompt is crafted with the cleaned content
 
-    Sends a system and user prompt to your local LLM (llama3.2)
+*Sends a system and user prompt to your local LLM (llama3.2)
 
-    Markdown summary is displayed in terminal or Jupyter
+*Markdown summary is displayed in terminal or Jupyter
 
 🛠 Configuration
 
@@ -64,12 +64,12 @@ To change the system behavior, edit this line in summarizer.py:
 
 📌 Future Ideas
 
-    Batch summarize from a list of URLs
+*Batch summarize from a list of URLs
 
-    Export summaries to .md or .pdf
+*Export summaries to .md or .pdf
 
-    GUI or Streamlit interface
+*GUI or Streamlit interface
 
-    Categorize or tag page content automatically
+*Categorize or tag page content automatically
 
 
